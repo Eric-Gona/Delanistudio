@@ -14,6 +14,15 @@
     color: white;
 }
 
+
+.mouse{
+    position: absolute;
+    top:150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
 .logo{
     text-align: center;
     font-size: 50px;
