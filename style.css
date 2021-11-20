@@ -8,7 +8,7 @@
 
 .home{
     position: absolute;
-    top: 120%;
+    top: 80%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
@@ -16,7 +16,7 @@
 
 .logo{
     text-align: center;
-    font-size: 70px;
+    font-size: 50px;
 }
 
 .welc{
@@ -62,7 +62,7 @@
     text-align: center;
     font-size: 19px;
     position:absolute;
-    top:260% ;
+    top:250% ;
     left:50%;
     transform:translate(-50%,-50%);
     color: white;
@@ -71,6 +71,12 @@
 .container .what{
     text-align: center;
 }
+
+.do{
+  display: flex;
+  justify-content: space-between;
+}
+
 
 h2{
     text-align: center;
@@ -83,7 +89,7 @@ h2{
 
 .cont{
     position:absolute;
-    top:400% ;
+    top:350% ;
     left:50%;
     transform:translate(-50%,-50%);
     color: white;
@@ -97,4 +103,8 @@ h2{
 
 h4{
     text-align: center;
+}
+
+.icons{
+   text-align: center;
 }
