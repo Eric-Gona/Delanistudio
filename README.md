@@ -16,6 +16,6 @@ There is no known bug in at the moment of publishing this release.
 ## Technologies Used
 Used HTML CSS an Javascript and jquery to build.
 ## Support and contact details
-For any concerns, please contact brian.cheruiyot@student.moringaschool.com
+For any concerns, please contact eric.karisa@student.moringaschool.com
 ## License
 Copyright (c) {2021} {ERIC KARISA}
