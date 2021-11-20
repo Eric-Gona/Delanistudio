@@ -115,7 +115,7 @@ h2{
 
 .cont{
     position:absolute;
-    top:450% ;
+    top:500% ;
     left:50%;
     transform:translate(-50%,-50%);
     color: white;
