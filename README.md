@@ -1,5 +1,5 @@
 # DELANI STUDIOS
-{Showcases delani studio work of and also takes user information}, {13/9/2021}
+Delani is a studio website showing some of the projects they have in the portfolio section. It also has a section with a form for one to fill.
 ## Author
  ERIC KARISA
 ## Description
