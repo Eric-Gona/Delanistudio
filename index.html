@@ -6,6 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.16.0/css/mdb.min.css"
+    rel="stylesheet"/>
+  <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css"
+    rel="stylesheet"/>
+  <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
 </head>
 <body>
         <div class="container flex">
@@ -38,14 +48,36 @@
         </div>
     </div>
 
-    
-    <div class="container what">
-        <h2>WHAT WE DO</h2>
-        <div class="do">
-        <p><img id="image1" src="./IP3/assets/services_icons/design_icon.png" alt=""><br><strong>DESIGN</strong><br>Our design practice offers a full range of services<br>including brand strategy, interaction and visual design<br>and user experience testing</p>
-        <p><img id="image2" src="./IP3/assets/services_icons/dev_icon.png" alt=""><br><strong> DEVELOPMENT</strong><br>engineers are fluent in the latest enterprise, mobile<br>and web development technologies.  <br>They collaborate with your team to write, and improve<br>code on a daily basis, using proven practices such as<br>test-driven development and pair programming.</p>
-        <P><img id="image3" src="./IP3/assets/services_icons/product_icon.png" alt=""><br><strong>PRODUCT MANAGEMENT</strong> <br>Planning and development is iterative. Because we are<br>contantly coding and testing, the products we build are<br>always ready to do live.  <br>This iterative process allows for changes as business<br>requirements evolve.</P>
-    </div>
+    <div class="whatwedo ">
+        <h2 class="text-center mt-5" style="font-weight: 600">WHAT WE DO</h2>
+        <div class="row mt-5">
+          <div class="col-md-4 text-center">
+          <img id="img1" src="./IP3/assets/services_icons/design_icon.png" class="img-fluid" alt="...">
+          <p>DESIGN</p>
+           <div class="design">
+             <p>Our design practice offers a full range of services including brand strategy, interaction and visual design and user experience testing.
+            Throughout your project, our designers create and implement visual design and workflows, solicit user feedback and work with you to make sure what gets built is what is needed.
+            </p>
+          </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <img id="img2" src="./IP3/assets/services_icons/dev_icon.png" class="img-fluid" alt="...">
+            <p>DEVELOPMENT</p>
+            <div class=" devel">
+            <p id="develop">All engineers are fluent in the latest enterprise, mobile and web development technologies.
+            They collaborate with your team to write, and improve code on a daily basis, using proven practices such 
+            as test-driven development and pair programming.</p>
+          </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <img id="img3" src="./IP3/assets/services_icons/product_icon.png" class="img-fluid" alt="..."> 
+            <p>PRODUCT MANAGEMENT</p>
+            <p id="product">
+              Planning and development is iterative. Because we are constantly coding and testing, the products we build are always ready to go live. 
+              This iterative process allows for changes as business requirements evolve.</p>
+          </div>
+        </div>
+      </div>
         <h2>PORTFOLIO</h2>
         <div class="port">
             <div class="row">
