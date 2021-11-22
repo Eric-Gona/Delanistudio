@@ -145,3 +145,13 @@ h4{
    text-align: center;
 }
 
+
+#design{
+    display: none;
+}
+#develop{
+    display: none;
+}
+#product{
+    display: none;
+}
