@@ -1,104 +1,103 @@
-$(document).ready(function() {
-    $("#image1").click(function() {
-      $("#image1").toggle();
-        $(".design").toggle();
+(document).ready(function() {
+  $("#img1").click(function() {
+    $("#img1").toggle();
+      $(".design").toggle();
+    });
+    $(".design").click(function() {
+      $(".design").toggle();
+        $("#img1").toggle();
       });
-      $(".design").click(function() {
-        $(".design").toggle();
-          $("#image1").toggle();
+
+      $("#img2").click(function() {
+        $("#img2").toggle();
+          $("#develop").toggle();
         });
 
-        $("#image2").click(function() {
-          $("#image2").toggle();
+        $("#develop").click(function() {
+          $("#img2").toggle();
             $("#develop").toggle();
           });
 
-          $("#develop").click(function() {
-            $("#image2").toggle();
-              $("#develop").toggle();
+          $("#img3").click(function() {
+            $("#img3").toggle();
+              $("#product").toggle();
             });
-
-            $("#image3").click(function() {
-              $("#image3").toggle();
+            $("#product").click(function() {
+              $("#img3").toggle();
                 $("#product").toggle();
               });
-              $("#product").click(function() {
-                $("#image3").toggle();
-                  $("#product").toggle();
-                });
 // PORTFOLIO BEGINS
-                $("#1").mouseenter(function(){
-                  $(".1").show(2000);
-                  
-              });
-               $("#1").mouseleave(function(){
-                 $(".1").hide(1000);
-                });
+$("#pc1").mouseenter(function(){
+  $(".txt1").show(2000);
+  
+});
+$("#pc1").mouseleave(function(){
+ $(".txt1").hide(1000);
+});
 
 
-                $("#2").mouseenter(function(){
-                  $(".2").show(2000);
-                  
-              });
-               $("#2").mouseleave(function(){
-                 $(".2").hide(1000);
-                });
+$("#pc2").mouseenter(function(){
+  $(".txt2").show(2000);
+  
+});
+$("#pc2").mouseleave(function(){
+ $(".txt2").hide(1000);
+});
 
 
-                $("#3").mouseenter(function(){
-                  $(".3").show(2000);
-                  
-              });
-               $("#3").mouseleave(function(){
-                 $(".3").hide(1000);
-                });
+$("#pc3").mouseenter(function(){
+  $(".txt3").show(2000);
+  
+});
+$("#pc3").mouseleave(function(){
+ $(".txt3").hide(1000);
+});
 
 
-                $("#4").mouseenter(function(){
-                  $(".4").show(2000);
-                  
-              });
-               $("#4").mouseleave(function(){
-                 $(".4").hide(1000);
-                });
-
-
-
-                $("#5").mouseenter(function(){
-                  $(".5").show(2000);
-                  
-              });
-               $("#5").mouseleave(function(){
-                 $(".5").hide(1000);
-                });
+$("#pc4").mouseenter(function(){
+  $(".txt4").show(2000);
+  
+});
+$("#pc4").mouseleave(function(){
+ $(".txt4").hide(1000);
+});
 
 
 
-                $("#6").mouseenter(function(){
-                  $(".6").show(2000);
-                  
-              });
-               $("#6").mouseleave(function(){
-                 $(".6").hide(1000);
-                });
-                $("#6").mouseenter(function(){
-                  $(".6").show(2000);
-                  
-              });
-               $("#7").mouseleave(function(){
-                 $(".7").hide(1000);
-                });
-                $("#7").mouseenter(function(){
-                  $(".7").show(2000);  
-              });
+$("#pc5").mouseenter(function(){
+  $(".txt5").show(2000);
+  
+});
+$("#pc5").mouseleave(function(){
+ $(".txt5").hide(1000);
+});
 
-               $("#8").mouseleave(function(){
-                 $(".8").hide(1000);
-                });
-                $("#8").mouseenter(function(){
-                  $(".8").show(2000); 
-              });
 
+
+$("#pc6").mouseenter(function(){
+  $(".txt6").show(2000);
+  
+});
+$("#pc6").mouseleave(function(){
+ $(".txt6").hide(1000);
+});
+$("#pc6").mouseenter(function(){
+  $(".txt6").show(2000);
+  
+});
+$("#pc7").mouseleave(function(){
+ $(".txt7").hide(1000);
+});
+$("#pc7").mouseenter(function(){
+  $(".txt7").show(2000);  
+});
+
+$("#pc8").mouseleave(function(){
+ $(".txt8").hide(1000);
+});
+$("#pc8").mouseenter(function(){
+  $(".txt8").show(2000); 
+}); 
                 function submit(fo){
                   var name= document.getElementById("name").value;
                   var email = document.getElementById("email").value;
