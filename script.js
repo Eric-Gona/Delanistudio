@@ -1,10 +1,13 @@
-(document).ready(function() {
+
+
+
+$(document).ready(function() {
   $("#img1").click(function() {
     $("#img1").toggle();
-      $(".design").toggle();
+      $("#design").toggle();
     });
-    $(".design").click(function() {
-      $(".design").toggle();
+    $("#design").click(function() {
+      $("#design").toggle();
         $("#img1").toggle();
       });
 
